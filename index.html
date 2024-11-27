@@ -9,13 +9,33 @@
 <body>
    <div class="contenedor">
         <header class="header">
-            <figue class="header_logo">
+            <figure class="header_logo">
                 <a href="index.html">My Page</a>
-            </figue>
+            </figure>
+            <button class="header_button" onclick="showMenu();">
+                
+            </button>
         </header>
+        <aside class="barra_lateral" id="barraLateral">
+            <button onclick="closeMenu();">
+                Close X
+            </button>
+            <ul class="lista">
+                <li class="lista-item">
+                    Link 1
+                </li>
+                <li class="lista-item">
+                    Link 2
+                </li>
+                <li class="lista-item">
+                    Link 3
+                </li>
+            </ul>
+        </aside>
         <main class="main">
             <p>Click on the ... symbol to open the sidebar (overlays some of the page content).</p>
         </main>
    </div> 
+   <script src="./script/script.js"></script>
 </body>
 </html>

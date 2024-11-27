@@ -28,3 +28,30 @@ body {
     text-decoration: none;
     color:#fff;
 }
+
+.header_button {
+    background-image: url(/images/button.png);
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.barra_lateral {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 200px;
+    padding: 20px;
+    border: 0.25px solid;
+    display: none;
+}
+
+.lista {
+    list-style: none;
+    margin-top: 10px;
+}
